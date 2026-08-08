@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+}
+.container{
+    border: 2px solid  white;
+    margin: 20px auto;
+    /* min-height: 95vh; */
+    /* width: 30%;
+    min-width: 300px; */
+    width: clamp(300px,25%,600px);
+    aspect-ratio: 688/1223;
+    background-image: url(images/adventure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    position: relative;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.text{
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    text-align: center;
+     display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+    
+
+}
+.text h2{
+    /* font-size: 2.3rem; */
+    font-size: clamp(1rem,2vw,2rem);
+    
+}
+.text h1{
+    /* font-size: 3rem; */
+    font-size: clamp(1rem,2.5vw,3rem);
+    
+}
+.text p{
+    text-wrap: balance;
+    /* font-size: 1rem; */
+    font-size: clamp(1rem,1vw,1rem);
+    overflow: hidden;
+}
+/* @media (max-width:800px) {
+    .container{
+    width: 70%;
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.text h1{
+    /* font-size: 38px; */
+    /* font-size: 3rem;
+    
+}
+.text h2{
+    /* font-size: 30px; */
+    font-size: 2rem;
+
+}
+.text p{
+    font-size: 1.5rem;
+}
+ */
+
+} */
+
+
