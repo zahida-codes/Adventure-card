@@ -16,7 +16,7 @@ body{
     min-width: 300px; */
     width: clamp(300px,25%,600px);
     aspect-ratio: 688/1223;
-    background-image: url(images/adventure.jpg);
+    background-image: url(adventure.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
