@@ -40,18 +40,18 @@ body{
 }
 .text h2{
     /* font-size: 2.3rem; */
-    font-size: clamp(1rem,2vw,2rem);
+    font-size: clamp(2rem,2vw,2.5rem);
     
 }
 .text h1{
     /* font-size: 3rem; */
-    font-size: clamp(1rem,2.5vw,3rem);
+    font-size: clamp(2.3rem,2.5vw,3rem);
     
 }
 .text p{
     text-wrap: balance;
     /* font-size: 1rem; */
-    font-size: clamp(0.5rem,1vw,1rem);
+    font-size: clamp(0.9rem,1vw,1rem);
     overflow: hidden;
 }
 
